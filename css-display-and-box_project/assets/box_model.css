@@ -8,6 +8,11 @@ body {
   margin: 0 auto;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 section {
   width: 700px;
   display: inline-block;
@@ -20,16 +25,14 @@ aside {
   vertical-align: top;
 }
 
-nav a {
-  display: inline-block;
-  padding: 20px;
-  
+nav {
+  display: flex;
 }
 
-nav {
-  display: inline-block;
-  
+nav a {
+  padding: 20px;
 }
+
 
 h1 {
   font-size: 38px;
@@ -63,7 +66,6 @@ of the header element */
 
 header > img {
   width: 100px;
-  display: inline-block;
   padding: 20px;
 }
 
